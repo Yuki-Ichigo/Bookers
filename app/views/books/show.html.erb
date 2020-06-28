@@ -1,0 +1,10 @@
+<!-- 詳細ページ -->
+
+<p id="notice">
+ <%=  notice %>
+</p>
+<p><b>Title:</b><%= @book.title %></p>
+<p><b>Body:</b><%= @book.body %></p>
+
+<%= link_to "edit", edit_book_path(@book) %>
+<%= link_to "back", books_path %>

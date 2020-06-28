@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+*{
+	font-family: Verdana;
+	font-size: 13px;
+}
+
+#notice {
+	color: green;
+}
+
+
+/*テーブルについての記述*/
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    vertical-align: middle;
+    width: 100%;
+}
